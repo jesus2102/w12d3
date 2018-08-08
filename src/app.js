@@ -12,5 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const selectView = new SelectView(selectElement);
   selectView.bindEvents();
 
+  countries.bindEvents();
+
 
 });
